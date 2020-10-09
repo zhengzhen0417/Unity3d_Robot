@@ -31,7 +31,7 @@ Vs版本:VS2017
 
 4.构型切换,切换当前位姿的其他构型，也就是其他的解
 
-![CC](/png/ChoosePose.gif)
+![CC](/png/choosePose.gif)
 
 # 4.存在问题
 
