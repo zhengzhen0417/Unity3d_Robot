@@ -19,19 +19,19 @@ Vs版本:VS2017
 
 1.CMove 以点对点的方式运动到目标位置，轨迹不确定
 
-![PtP](\png\PtP.gif)
+![PtP](/png/PtP.gif)
 
 2.CLine 以直线的方式运动到目标位置，轨迹为直线
 
-![PtP](\png\Line.gif)
+![Line](/png/Line.gif)
 
 3.写字函数，给定点坐标画出轨迹
 
-![PtP](\png\Write.gif)
+![Write](/png/Write.gif)
 
 4.构型切换,切换当前位姿的其他构型，也就是其他的解
 
-![PtP](\png\ChoosePose.gif)
+![CC](/png/ChoosePose.gif)
 
 # 4.存在问题
 
