@@ -18,9 +18,7 @@ namespace robot
         //Tran
         public Transform Trans;
         //dir 
-        public bool Dir;
-
-        
+        public bool Dir;     
         public Axis(Transform transform, UnityEngine.Vector3 AxisCenter,float offset,bool dir)
         {
             this.AxisCenter = AxisCenter;
@@ -29,19 +27,17 @@ namespace robot
             this.Dir = dir;
 
         }
+        //直接设置角度
         public void SetAngle(float angle)
         {
             Trans.localEulerAngles=new UnityEngine.Vector3(Trans.localEulerAngles.x, Trans.localEulerAngles.y, Dir? angle : -angle - Offset);                       
         }
-
+        //获取角度
         public float GetAngle()
         {
             float angle = Dir ? (Trans.localEulerAngles.z - Offset): (-Trans.localEulerAngles.z - Offset);
             if (angle < -180)
                 angle += 360;
-
-
-
             return angle;
         }
     }

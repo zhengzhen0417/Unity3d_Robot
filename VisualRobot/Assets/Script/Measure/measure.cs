@@ -13,8 +13,7 @@ public class measure : MonoBehaviour
     {
         var  rbtbasePos= rbt_base.transform.position;
         var rbttoolPos = rbt_tool.transform.position;
-        var Dpos = rbtbasePos - rbttoolPos;
-        
+        var Dpos = rbtbasePos - rbttoolPos;       
     }
 
     // Update is called once per frame
